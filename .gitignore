@@ -1,0 +1,71 @@
+# =====================================================================
+# Form Specification — .gitignore
+# A documentation / standard repo (Markdown + reference glyph artwork).
+# Source design files (.svg, .ai, .sketch, .fig, .afdesign, .pdf) are
+# tracked assets and intentionally NOT ignored — only OS cruft, editor
+# scratch, local exports, and generated site output are ignored.
+# =====================================================================
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ---- Windows ----
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---- Linux ----
+*~
+.directory
+.Trash-*
+
+# ---- Editors / IDEs / note tools ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+.obsidian/
+
+# ---- Office / design scratch & lock files (keep the real source files) ----
+~$*
+*.tmp
+*.bak
+
+# ---- Local image exports (publish finished art under reference-glyphs/) ----
+/exports/
+
+# ---- Static-site / docs generators (if used to render the spec) ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.cache/
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.docusaurus/
+/site/
+/public/
+
+# ---- Misc ----
+*.log
+.env
+.env.local
