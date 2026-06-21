@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/1275671721.svg)](https://doi.org/10.5281/zenodo.20779731)
 
-Form Notation is a visual music notation that encodes pitch, octave, and rhythm with geometric shapes, colors, and a circular duration indicator (the **halo**). It is designed to be read in minutes, and it round-trips with both MIDI and formal composition (traditional, staff-based notation).
+Form Notation is a visual music notation that encodes pitch, octave, and rhythm with geometric shapes, colors, and a circular duration indicator (the **halo**). It is designed to be learned in minutes, and it round-trips with both MIDI and formal composition (traditional, staff-based notation).
 
 ## At a Glance
 
